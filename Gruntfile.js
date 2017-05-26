@@ -36,5 +36,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   // Default task(s).
-  grunt.registerTask('default', ['sass','imagemin']);
+  grunt.registerTask('default', ['sass','imagemin','watch']);
 };  
